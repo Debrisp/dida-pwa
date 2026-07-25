@@ -145,6 +145,7 @@ export interface Reminder {
 }
 
 export interface AppSettings {
+  id?: string
   language: string
   weekStartsOn: 0 | 1
   timeFormat: '12h' | '24h'
